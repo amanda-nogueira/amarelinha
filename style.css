@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(228, 233, 230);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 25px;
+}
+
+.carta {
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    position: relative;
+}
+
+.canto {
+    position: absolute;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#supEsq {
+    top: 20px;
+    left: 15px;
+}
+
+#infDir {
+    bottom: 25px;
+    right: 15px;
+}
+
+.centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.centro img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+}

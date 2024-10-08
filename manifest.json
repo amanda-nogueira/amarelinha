@@ -1,0 +1,13 @@
+{
+    "name": "Amarelinha",
+    "start_url": "/amarelinha",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "img/maoDir.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
